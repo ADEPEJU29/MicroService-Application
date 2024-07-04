@@ -28,7 +28,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: tkibnyusuf/adservice:latest
+        image: adepeju/adservice:latest
         ports:
         - containerPort: 9555
         env:
@@ -97,7 +97,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: tkibnyusuf/cartservice:latest
+        image: adepeju/cartservice:latest
         ports:
         - containerPort: 7070
         env:
@@ -162,7 +162,7 @@ spec:
                 - ALL
             privileged: false
             readOnlyRootFilesystem: true
-          image: tkibnyusuf/checkoutservice:latest
+          image: adepeju/checkoutservice:latest
           ports:
           - containerPort: 5050
           readinessProbe:
@@ -237,7 +237,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: tkibnyusuf/currencyservice:latest
+        image: adepeju/currencyservice:latest
         ports:
         - name: grpc
           containerPort: 7000
@@ -304,7 +304,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: tkibnyusuf/emailservice:latest
+        image: adepeju/emailservice:latest
         ports:
         - containerPort: 8080
         env:
@@ -373,7 +373,7 @@ spec:
                 - ALL
             privileged: false
             readOnlyRootFilesystem: true
-          image: tkibnyusuf/frontend:latest
+          image: adepeju/frontend:latest
           ports:
           - containerPort: 8080
           readinessProbe:
@@ -483,7 +483,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: tkibnyusuf/loadgenerator:latest
+        image: adepeju/loadgenerator:latest
         env:
         - name: FRONTEND_ADDR
           value: "frontend:80"
@@ -527,7 +527,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: tkibnyusuf/paymentservice:latest
+        image: adepeju/paymentservice:latest
         ports:
         - containerPort: 50051
         env:
@@ -592,7 +592,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: tkibnyusuf/productcatalogservice:latest
+        image: adepeju/productcatalogservice:latest
         ports:
         - containerPort: 3550
         env:
@@ -657,7 +657,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: tkibnyusuf/recommendationservice:latest
+        image: adepeju/recommendationservice:latest
         ports:
         - containerPort: 8080
         readinessProbe:
@@ -792,7 +792,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: tkibnyusuf/shippingservice:latest
+        image: adepeju/shippingservice:latest
         ports:
         - containerPort: 50051
         env:
