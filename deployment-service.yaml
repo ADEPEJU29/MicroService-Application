@@ -371,5 +371,5 @@ spec:
     metadata:
       labels:
         app: frontend
-      annotations:
-        sidecar
+    spec:
+      serviceAccountName: default
